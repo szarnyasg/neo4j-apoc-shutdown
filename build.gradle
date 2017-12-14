@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'application'
 
 ext {
   junitVersion = '4.12'
@@ -8,6 +9,8 @@ ext {
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
+
+mainClassName = "pkg.EmbeddedNeo4jMain"
 
 repositories {
   mavenCentral()
