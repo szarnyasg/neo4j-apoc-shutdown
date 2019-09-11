@@ -22,4 +22,5 @@ dependencies {
   compile group: 'org.neo4j', name: 'neo4j-kernel', version: neo4jVersion
   compile group: 'org.neo4j', name: 'neo4j-io', version: neo4jVersion
   compile group: 'org.neo4j.procedure', name: 'apoc', version: neo4jApocVersion
+  compile group: 'commons-io', name: 'commons-io', version: '2.6'
 }
