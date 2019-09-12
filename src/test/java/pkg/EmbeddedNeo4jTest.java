@@ -1,7 +1,7 @@
 package pkg;
 
 import org.junit.Test;
-import org.neo4j.kernel.api.exceptions.KernelException;
+import org.neo4j.internal.kernel.api.exceptions.KernelException;
 import pkg.EmbeddedNeo4j;
 
 import java.io.IOException;

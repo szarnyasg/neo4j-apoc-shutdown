@@ -1,6 +1,6 @@
 package pkg;
 
-import org.neo4j.kernel.api.exceptions.KernelException;
+import org.neo4j.internal.kernel.api.exceptions.KernelException;
 
 import java.io.IOException;
 
